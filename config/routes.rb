@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   
   
   
-    get '/patients/:id', to: 'patients#show'
+    get '/hello_world', to: 'patients#show'
   
 end
